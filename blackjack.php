@@ -4,9 +4,9 @@
 session_start();
 //Si un utilisateur non connecté essaye d'accéder à cette partie
 //on le redirige immédiatemment vers la page de connexion
-if (!isset($_SESSION['login'])){
+/*if (!isset($_SESSION['login'])){
   header('Location: connect.php');
-}
+}*/
 ?>
 
 <html>
